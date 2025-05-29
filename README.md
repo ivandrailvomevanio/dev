@@ -57,6 +57,7 @@ docker-compose up -d
 http://localhost:8181
 
 
+
 ## Observações sobre o arquivo php.ini
 
 Este projeto **não inclui um arquivo `php.ini` customizado** — o PHP-FPM utiliza as configurações padrão do container oficial `php:8.2-fpm`.
@@ -68,5 +69,4 @@ Caso deseje adicionar um `php.ini` para customizar o comportamento do PHP, recom
 - Evitar expor este arquivo publicamente em repositórios públicos, a não ser que seja para demonstração, sem dados confidenciais
 
 Como este projeto é apenas para demonstração, o arquivo `php.ini` não está incluído para manter o exemplo mais limpo e simples.
-
 
