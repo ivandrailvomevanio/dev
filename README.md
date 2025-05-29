@@ -2,7 +2,7 @@
 
 Este projeto configura um ambiente completo com Apache, PHP-FPM (FastCGI) e MariaDB usando Docker Compose. Ele foi desenvolvido como um ambiente de demonstração funcional e modular para aplicações PHP com banco de dados.
 
-## 📦 Serviços
+## Serviços
 
 - **Apache**: Servidor web, configurado para encaminhar requisições PHP para o PHP-FPM via FastCGI.
 - **PHP-FPM**: Interpretador PHP rodando em processo separado.
@@ -12,7 +12,7 @@ Este projeto configura um ambiente completo com Apache, PHP-FPM (FastCGI) e Mari
 
 ---
 
-## 📁 Estrutura de Diretórios
+## Estrutura de Diretórios
 dev/
 ├── apache
 │ └── httpd.conf # Configuração personalizada do Apache
@@ -24,7 +24,7 @@ dev/
 
 ---
 
-## ⚙️ Pré-requisitos
+## Pré-requisitos
 
 - Docker
 - Docker Compose
@@ -32,7 +32,7 @@ dev/
 
 ---
 
-## 🌐 Criação da rede personalizada
+## Criação da rede personalizada
 
 Antes de subir os containers, **é necessário criar a rede `proxy-reverso` manualmente**, pois ela é externa ao `docker-compose.yml`.
 
