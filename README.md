@@ -35,6 +35,7 @@ dev/
 ## Criação da rede personalizada
 
 Antes de subir os containers, **é necessário criar a rede `proxy-reverso` manualmente**, pois ela é externa ao `docker-compose.yml`.
+Abaixo, coloquei um exemplo, de como fiz aqui no laboratório, pois a ideia foi colocar os containers na mesma rede que o proxy reverso, onde faríamos o balanceamento de carga.
 
 ```bash
 docker network create \
