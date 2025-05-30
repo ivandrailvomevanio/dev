@@ -5,6 +5,7 @@ services:
     restart: unless-stopped
     volumes:
       - ./html:/var/www/html
+      - ./php.ini:/usr/local/etc/php/php.ini:ro
     networks:
       - proxy-reverso
 
@@ -16,7 +17,7 @@ services:
       - "8181:80"
     volumes:
       - ./html:/var/www/html
-      - ./apache/httpd.conf:/usr/local/apache2/conf/httpd.conf
+      - ./apache/httpd.conf:/usr/local/apache2/conf/httpd.conf:ro
     depends_on:
       - php
     networks:
