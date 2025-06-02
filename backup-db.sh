@@ -1,5 +1,5 @@
 #!/bin/bash
-
+#
 # Carrega as variáveis de ambiente
 export $(grep -v '^#' .env | xargs)
 
