@@ -60,11 +60,6 @@ git clone https://github.com/ivandrailvomevanio/dev.git
 cd dev/
 
 
-MYSQL_ROOT_PASSWORD=rootpassword
-MYSQL_DATABASE=mydb
-MYSQL_USER=myuser
-MYSQL_PASSWORD=mypassword
-
 docker-compose up -d
 
 http://localhost:8181
